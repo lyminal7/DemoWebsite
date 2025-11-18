@@ -17,6 +17,10 @@ button{
     cursor:pointer
 }
 
+form{
+    float:left;
+}
+
 .grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
