@@ -1,7 +1,19 @@
-body{
-    font-family: system-ui, Arial;
-    margin: 0%;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+html{
+    font-family: system-ui, Arial;
+}
+
+body{
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
 
 header{
     display: flex;
