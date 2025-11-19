@@ -4,18 +4,20 @@
   <meta charset="utf-8">
   <title>My Demo Store</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script type="text/javascript" src="js/functions.js"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
 </head>
 <body>
-  <!-- CHANGE href Home INTO A BUTTON !!-->
   <header>
     <h1>Demo Store (Prototype)</h1>
     <nav>
       <form action="#">
-        <input type="submit" value="Home"/>
-      </form>
-      <form action="about-us.html">
-        <input type="submit" value="About Us"/>
+        <div class="menu" onclick="toggleMenu(this)">
+          <div class="menuBar1"></div>
+          <div class="menuBar2"></div>
+          <div class="menuBar3"></div>
+        </div>
       </form>
     </nav>
   </header>
